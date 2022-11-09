@@ -1,11 +1,7 @@
-Assignment 1 - Turtle Fractal Generator
-Eoghan O Riain - 111319036 
-
 This Turtle Generator was developed using Python 3.9.7. Please note that other Python versions may produce varied graphical results.
 
 The purpose of my Turtle Generator is to allow the user full artistic control over the turtle graphic generation. There are two main panels which occupy the space of Turtle Generator: 
 The Control Panel and The Canvas Frame.
-
 
 The Control Panel:
 The control panel is broken in 6-sections to allow the user to specify their turtle parameters in varies form input method (i.e. scale bar, data entry, option menu etc.). This is where creative control is handed over to the user. Below is a breakdown of each of the 6-sections of the control panel:
@@ -15,7 +11,6 @@ This requires the user to enter specific dimensions they would like the turtle t
  
 Fractal Type Selection:
 12 fractals have been designed and included within the Turtle Generator. In order to review the list of fractals and make their selection, the user has been given a drop-down menu (or option menu) with all fractal include so the user can take their pick. Below is a list of the fractals that were my personal contributions to this list:
-
 
 - Octahedron
 This is the first of my personal contributions to the selection of fractals. The octahedron is a complex fractal that is 3D in nature which posed a challenge in programming the turtle representation. An octahedron is an 8-sided 3D object with triangular faces and I am satisfied with its representation in 2D space.
@@ -42,7 +37,6 @@ Draw & Reset Functions:
 Draw - Once selected the turtle will begin to construct the fractal of choice to the user’s specification. As previously mentioned, the turtle will not if either the length or the order has not been given a value.
 Reset - Once an image has been completed by the turtle. The user can press the “Reset” button to the control panel and canvas frame back their default setting and values.
 Both buttons have an additional function associated with them that will change the colour of the text on the button and underline the text when the cursor is over the button.
-
 
 The Canvas Frame
 The canvas frame contains the graphical window, in which the user customised fractal will be drawn and displayed. As well as the graphical window, the canvas frame also houses the fractal information panel. When a fractal is selected from the option menu and it is given its length and order, a short paragraph of information relating to the selected fractal will appear in the fractal information panel once the draw button is clicked. The fractal information panel will also pull through and display the length and order that has been selected by the user.
